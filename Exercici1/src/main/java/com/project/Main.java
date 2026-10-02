@@ -41,7 +41,7 @@ public class Main {
             // només el mostra (simula la resposta enviada a l'usuari).
             .thenAccept(resultat -> {
                 System.out.println("Tasca 3: enviant resposta a l'usuari...");
-                System.out.println("Resposta final: el resultat és " + resultat);
+                System.out.println("Resposta final: el resultat es " + resultat);
             });
 
         // join() bloqueja el fil principal fins que tota la cadena s'ha completat.

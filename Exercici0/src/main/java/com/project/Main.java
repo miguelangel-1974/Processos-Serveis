@@ -32,7 +32,7 @@ public class Main {
         // Simula la recepció d'una operació bancària (un ingrés de 1000).
         Runnable tasca1 = () -> {
             dades.put("saldo", 1000);
-            System.out.println("Tasca 1: operació rebuda, saldo inicial = 1000");
+            System.out.println("Tasca 1: operacio rebuda, saldo inicial = 1000");
             // Avisem que ja hi ha dades perquè la tasca 2 pugui continuar
             operacioRebuda.countDown();
         };
@@ -52,7 +52,7 @@ public class Main {
 
                 // Restem 10 de comissió
                 saldo = saldo - 10;
-                System.out.println("Tasca 2: restats 10 de comissió");
+                System.out.println("Tasca 2: restats 10 de comissio");
 
                 // Guardem el nou saldo al mapa compartit
                 dades.put("saldo", saldo);
